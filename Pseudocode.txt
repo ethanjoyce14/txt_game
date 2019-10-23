@@ -1,0 +1,57 @@
+# MAP
+position = (x,y)
+
+starting position = (4,4)
+
+map dimensions = 4 x 4
+
+enemy coordinates
+    Position(1,3):
+        Bocage, enemy presence
+    Position(1,2):
+        Urban, enemy presence
+    Position(1,1):
+        Urban, enemy presence
+    Position(2,1):
+        Urban, enemy presence
+    Position(3,3):
+        Field, enemy presence
+
+# ENEMY
+hit points = 5
+
+weapons:
+    kar98 = 3-5 attack
+    mg34 = 4-5 attack
+    mp40 = 3-5 attack
+    luger = 2-4 attack
+
+ammunition:
+    5 rounds of fire
+
+# PLAYER
+hit points = 5
+
+weapons:
+    lee_enfield = 3-5 attack
+    m1911 - 2-4 attack
+
+ammunition:
+    5 starting rounds of fire, more can be picked up
+
+# TEAM
+hit points = 5
+
+weapons:
+    lee_enfield = 3-5 attack
+    bren = 4-5 attack
+    sten = 3-5 attack
+    m1911 = 2-4 attack
+
+ammunition:
+    5 rounds of fire
+
+# OBJECTIVE
+objective:
+    - eliminate all enemy presence from the board
+    - reach tile 1,1
